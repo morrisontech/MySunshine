@@ -95,7 +95,6 @@ public class ForecastFragment extends Fragment {
                         R.layout.list_item_forecast,
                         R.id.list_item_forecast_textview,
                         forecastArray);
-
         //ListView populates ArrayAdapter data into the actual GUI listview
         final ListView listView = (ListView) rootView.findViewById(R.id.listview_forecast);
         listView.setAdapter(mForecastAdapter);
